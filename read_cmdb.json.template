@@ -1,0 +1,8 @@
+{
+	"server": "localhost",
+	"database": "ciscore",
+	"login": "l",
+	"password": "p",
+	"logintimeout": 3000,
+	"querytimeout": 30000
+}

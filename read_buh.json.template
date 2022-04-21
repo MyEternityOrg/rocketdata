@@ -1,0 +1,8 @@
+{
+	"server": "localhost",
+	"database": "tmCorp",
+	"login": "l",
+	"password": "p",
+	"logintimeout": 3000,
+	"querytimeout": 30000
+}

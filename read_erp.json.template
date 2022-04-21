@@ -1,0 +1,8 @@
+{
+	"server": "localhost",
+	"database": "AstorCenter",
+	"login": "l",
+	"password": "p",
+	"logintimeout": 3000,
+	"querytimeout": 30000
+}
