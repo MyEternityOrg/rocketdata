@@ -4,3 +4,4 @@
 /read_erp.json
 /settings.json
 *.json
+/venv/
