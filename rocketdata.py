@@ -165,5 +165,5 @@ def update_hashed_addr():
 
 
 update_hashed_addr()
-#write_packet('Покупочка')
-#write_packet('ПокупАЛКО')
+write_packet('Покупочка')
+write_packet('ПокупАЛКО')
