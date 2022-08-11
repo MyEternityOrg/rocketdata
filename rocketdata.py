@@ -154,7 +154,7 @@ def update_hashed_addr():
             addr_hash[k].pop('address_buh')
             addr_hash[k].pop('address_erp')
 
-            addr['housenumber'] = str(addr['housenumber']).split(',')[0]
+            addr['housenumber'] = str(addr['housenumber']).replace(' ', '').replace(',', '')
 
             addr_hash[k]['address'] = addr
 
@@ -165,5 +165,5 @@ def update_hashed_addr():
 
 
 update_hashed_addr()
-write_packet('Покупочка')
-write_packet('ПокупАЛКО')
+#write_packet('Покупочка')
+#write_packet('ПокупАЛКО')
